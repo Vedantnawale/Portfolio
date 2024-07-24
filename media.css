@@ -1,0 +1,184 @@
+@media (max-width:799px){
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right:-300px;
+        height: 90vh;
+        width: 250px;
+        background-color: #0d161a;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 60px 0 0 10px;
+        line-height: 1vh;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    .nav-list ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list ul a{
+        margin: 10px;
+    }
+    .nav-list li{
+     margin-bottom: 25px;
+     margin-right: 60px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #fff;
+        font-size: 24px;
+        padding-right: 40px;
+        /* padding-left: 24px; */
+    }
+   #cmark{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+   }
+   .right-about img {
+    width: 250px;
+    height: 250px;
+}
+.space{
+    margin-left:0px;
+}
+.about-me-right p{
+ line-height: 4vh;
+ margin-left: 20px;
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+}
+.about-me-right h1 {
+    margin-left: 40px;
+}
+.about-me-right h3{
+    margin-left: 46px;
+    font-size: 20px;
+}
+.about-me-right button {
+    margin-left: 40px;
+}
+
+.about-me-right p{
+   margin-left: 50px;
+}
+.Internship,.container{
+    flex-direction: column;
+    width: 100%;
+}
+.iproject{
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.iproject button{
+    margin-left: 80px;
+}
+.right-footer{
+    width: 50%;
+}
+}
+@media (max-width: 477px){
+    .about .left-about h3{
+        font-size: 13px;
+    }
+    .about .left-about h1{
+        font-size: 16px;
+    }
+    .right-about img {
+        width: 150px;
+        height: 150px;
+    }
+    .about .left-about p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .about .left-about p strong{
+        font-size: 14px;
+    }
+    .about .left-about p span{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .about .left-about .icons a{
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+    button{
+        padding: 10px 30px;
+    }
+    .space{
+        margin-left: 0;
+    }
+    .about-me-right{
+        margin-left: 0;
+    }
+    .about-me-right p {
+        text-align: justify;
+        text-justify: inter-word;
+        margin: 5px;
+        width: 100%;
+    }
+    
+    .profile img{
+        display: none;
+    }
+    .container {
+        padding: 40px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .Technical-bars{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .professional{
+        margin-left: 30px;
+    }
+    .professional .circle1{
+        gap: 0;
+    }
+    .professional .circle2{
+        gap: 0;
+    }
+    .project h1{
+        padding: 40px;
+    }
+    .iproject .div-1,.div-2,.div-3{
+        width: 300px;
+        height: 400px;
+       margin-left: -40px;
+    }
+    footer{
+        padding: 0px;
+        margin-top: 100px;
+    }
+    footer .col .col1{
+        flex-direction: column;
+    }
+    .right-footer{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1439px){
+    .div-1 img{
+        height: 200px;
+    }
+    .iproject button{
+        margin: 20px 0px 0px 170px;
+    }
+}
