@@ -149,6 +149,7 @@ button {
     animation-delay: 2s;
     box-shadow: 0 0 5px #0ef;
     opacity: 0;
+    cursor: pointer;
 }
 
 button:hover {
